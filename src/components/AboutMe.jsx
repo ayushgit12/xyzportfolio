@@ -1,14 +1,15 @@
 import React from "react";
+import dp from '../assets/dp.jpeg';
 
 function AboutMe() {
   return (
     <section id="about" className="p-8 bg-gray-100">
       <div className="max-w-7xl mx-auto md:flex items-center">
-
+    
         <img
-          src="https://via.placeholder.com/150"
+          src={dp}
           alt="Profile"
-          className="w-40 h-40 rounded-full mr-8 text-center"
+          className="w-40 mr-8 text-center h-fit "
         />
 
         <div>
