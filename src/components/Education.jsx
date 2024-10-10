@@ -13,8 +13,8 @@ function Education() {
           <div className="text-center mb-4">
             <FaUniversity className="text-4xl text-blue-500 mx-auto mb-2" />
             <strong>Ph.D. (Pursuing)</strong> <br />
-            IIT Dhanbad <br />
-            Geotechnical & Geo-Environmental
+            Indian Institute of Technology Dhanbad <br />
+            Geotechnical  and Mining Engineering 
           </div>
           <BsArrowDown className="text-3xl mb-4" />
 
@@ -23,6 +23,7 @@ function Education() {
             <FaUniversity className="text-4xl text-blue-500 mx-auto mb-2" />
             <strong>M.Tech</strong> <br />
             NIT Jalandhar <br />
+            Geotechnical and Geoenviromental Engineering <br/>
             CGPA: 8.0 (2022)
           </div>
           <BsArrowDown className="text-3xl mb-4" />
@@ -32,6 +33,7 @@ function Education() {
             <FaUniversity className="text-4xl text-blue-500 mx-auto mb-2" />
             <strong>B.Tech</strong> <br />
             RGPV Bhopal <br />
+            Civil Engineering <br />
             CGPA: 7.28 (2016)
           </div>
           <BsArrowDown className="text-3xl mb-4" />

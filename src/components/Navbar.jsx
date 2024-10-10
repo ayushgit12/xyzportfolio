@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import  "./Navbar.css"
 
 export default function Component() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,12 +36,12 @@ export default function Component() {
 
   return (
     <>
-      <nav className={`bg-primary text-primary-foreground bg-blue-500 w-full fixed top-0 transition-transform duration-300 z-50 ${isScrollingUp ? 'translate-y-0' : '-translate-y-full'}`}>
+      <nav className={`bg-primary text-primary-foreground bg-blue-300 w-full fixed top-0 transition-transform duration-300 z-50 ${isScrollingUp ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <a href="/" className="text-xl font-bold">
-                Rajul Dwivedi
+              <a href="/" className="text-xl font-bold font-mono changefont ">
+                RAJUL DWIVEDI
               </a>
             </div>
             <div className="hidden md:block">
@@ -50,7 +51,7 @@ export default function Component() {
                 </a>
                 
                 <a href="/research" className="cursor-pointer px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-foreground hover:text-primary">
-                  Research Papers
+                   Projects
                 </a>
                 <a href="/certificates" className="cursor-pointer px-3 py-2 rounded-md text-sm font-medium hover:bg-primary-foreground hover:text-primary">
                   Certificates

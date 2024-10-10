@@ -21,10 +21,8 @@ function Projects() {
   return (
     <section id="projects" className="p-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl font-bold mb-4">Projects</h2>
-        
+        {/* <h2 className="text-2xl font-bold mb-4">Projects</h2> */}
         <AliceCarousel autoPlayInterval={1000} infinite autoPlay mouseTracking items={items} />
-
       </div>
     </section>
   );
